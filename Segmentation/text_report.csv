@@ -1,0 +1,35 @@
+======================================================================
+CONCRETE CRACK SEGMENTATION TEST EVALUATION REPORT
+======================================================================
+
+Model: UNetResNet34
+Encoder: ResNet34
+Encoder weights: ImageNet pretrained
+Image size: 256 x 256
+Prediction threshold: 0.5
+Test images: 1096
+Best checkpoint epoch: 24
+Best validation loss: 0.141150
+
+----------------------------------------------------------------------
+PIXEL-LEVEL CONFUSION COUNTS
+----------------------------------------------------------------------
+True Positive : 30,863,930
+True Negative : 37,028,032
+False Positive: 2,041,650
+False Negative: 1,893,844
+
+----------------------------------------------------------------------
+SEGMENTATION METRICS
+----------------------------------------------------------------------
+IoU / Jaccard Index      : 0.886909
+Dice Coefficient         : 0.940066
+Pixel Accuracy           : 0.945209
+Precision                : 0.937954
+Recall                   : 0.942186
+F1-score                 : 0.940066
+Mean IoU                 : 0.895418
+Background IoU           : 0.903927
+Crack IoU                : 0.886909
+
+======================================================================
