@@ -69,3 +69,13 @@ Pixel-Level Segmentation determines which pixels correspond to the defect, provi
 Object Detection determines where the defect is located, what type of defect it is, and how confident the model is in its prediction.
 
 Together, these approaches provide a multi-level computer vision framework for civil infrastructure defect analysis, covering image-level recognition, pixel-level delineation, and object-level localization.
+
+The code consists of 7 parts each for all of the three models. The parts are :
+
+cofig.py
+dataset.py
+model.py
+train.py
+evaluate.py
+visualization.py
+predict.py
