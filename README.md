@@ -1,4 +1,6 @@
-Civil Infrastructure Defect Detection through Computer Vision and Image Recognition
+Deep Learning-Based Computer Vision for Infrastructure Defect Detection: An Experimental Study of Classification, Segmentation and Object Detection
+
+Author : AHSAN RAZA
 
 This project presents a deep learning–based approach for automated civil infrastructure defect detection and analysis using computer vision and image recognition.
 
