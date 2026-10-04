@@ -107,16 +107,16 @@ Together, these approaches provide a multi-level computer vision framework for c
 
 The code consists of 7 parts each for all of the three models. The parts are :
 
-cofig.py
+cofig.py : Contains the configuration settings and hyperparameters used by the model, such as dataset paths, image size, batch size, learning rate, number of epochs, and other training parameters.
 
-dataset.py
+dataset.py : Handles dataset loading and preprocessing. It prepares images and their corresponding annotations (labels, masks, or bounding boxes) for training, validation, and testing.
 
-model.py
+model.py : Defines the deep learning model architecture. It contains the model initialization and configuration for ResNet50, U-Net with ResNet34 encoder, or YOLOv8n, depending on the detection task.
 
-train.py
+train.py : Performs model training using the prepared dataset. It handles the training loop, loss calculation, optimization, model validation, and saving of trained model weights.
 
-evaluate.py
+evaluate.py : Evaluates the trained model on the test or validation dataset using the appropriate performance metrics, such as Accuracy, Precision, Recall, F1 Score, IoU, Dice Score, and mAP.
 
-visualization.py
+visualization.py : Provides visualization functions for analyzing model results, such as displaying predictions, segmentation masks, bounding boxes, training curves, and other performance visualizations.
 
-predict.py
+predict.py : Performs inference on new, unseen images using the trained model and generates the final prediction, such as defect class, defect mask, or bounding boxes with confidence scores.
